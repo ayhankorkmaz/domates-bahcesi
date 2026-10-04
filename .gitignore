@@ -1,0 +1,3 @@
+# macOS metadata (exFAT disklerde her dosyanın yanında ._ kopyası oluşur)
+._*
+.DS_Store
