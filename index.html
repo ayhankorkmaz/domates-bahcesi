@@ -232,9 +232,14 @@ input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;bac
 }
 @media (max-height:660px){.task{display:none}.clock{font-size:60px}}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-delay:0s!important;transition-duration:.01ms!important}}
+.domat-bar{position:fixed;top:18px;left:50%;transform:translateX(-50%);z-index:60;display:flex;align-items:center;gap:10px;padding:8px 8px 8px 16px;background:var(--paper-solid);color:var(--ink);border-radius:999px;box-shadow:0 4px 0 rgba(74,46,34,.12),0 10px 24px rgba(74,46,34,.14);font:600 14px/1.2 var(--f-body);white-space:nowrap}
+.domat-bar a{color:#fff;background:var(--accent);border-radius:999px;padding:6px 12px;text-decoration:none;font-family:var(--f-display);font-weight:600;box-shadow:0 3px 0 var(--accent-deep)}
+.domat-bar button{border:0;background:none;color:var(--ink-3);font-size:18px;line-height:1;cursor:pointer;padding:2px 6px}
+@media (max-width:720px){.domat-bar{top:calc(env(safe-area-inset-top) + 96px);font-size:12px;padding-left:12px}}
 </style>
 </head>
 <body>
+<div class="domat-bar" id="domatBar" role="note"><span>🍅 Yeni sürüm: görev listesi, istatistik, İngilizce</span><a href="https://getdomat.com" target="_blank" rel="noopener">Domat'ı aç</a><button type="button" aria-label="Kapat" onclick="this.parentNode.remove()">×</button></div>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
     <radialGradient id="tg" cx=".35" cy=".35" r=".75"><stop offset="0" stop-color="#ff9c84"/><stop offset=".55" stop-color="#ef4e3a"/><stop offset="1" stop-color="#b8321f"/></radialGradient>

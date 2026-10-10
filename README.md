@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> **Bu proje [Domat](https://github.com/ayhankorkmaz/domat) olarak devam ediyor** · [getdomat.com](https://getdomat.com)<br>
+> Görev listesi, hasat defteri, mevsimler, büyüyen çiftlik, çevrimdışı çalışma ve İngilizce. Bu depo arşivlendi; ilk
+> tek dosyalık sürüm olarak burada duruyor.
+>
+> **This project lives on as [Domat](https://github.com/ayhankorkmaz/domat)** · [getdomat.com](https://getdomat.com). This repo is archived.
+
 <div align="center">
 
 # 🍅 Domates Bahçesi
